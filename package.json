@@ -19,6 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "server":"json-server ./server/data.json --port 8888",
     "start": "craco start",
     "build": "craco build",
     "test": "react-scripts test",
@@ -43,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^7.1.0"
+    "@craco/craco": "^7.1.0",
+    "json-server": "^1.0.0-alpha.14"
   }
 }
